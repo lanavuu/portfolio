@@ -108,8 +108,9 @@ html {
 
    @media (max-width: 850px) {
     /* SECTION 1: Hero */
-    .hero-section {
-        flex-direction: column-reverse;
+    .hero-section .text h2 {
+        font-size: 35px; /* fixed?*/
+        
     }
     .hero-section .headshot img {
         width: 300px;
@@ -118,7 +119,9 @@ html {
 
    @media (max-width: 740px) {
     /* SECTION 1: Hero */
-    .hero-section 
+    .hero-section {
+        flex-direction: column-reverse; /* fixed?*/
+    }
     
    }
    @media (max-width: 600px) {
