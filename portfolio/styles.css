@@ -186,18 +186,42 @@ html {
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 50%;
-
    }
 
-   .person-details .group .person-details p
+   /* SECTION 4: Contact */
+
+   .contact-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+   }
+
+   .contact-section h2 {
+    font-size: 40px;
+   }
+
+   .contact-section .group {
+    display: flex;
+    gap: 50px;
+   }
+
+   .contact-section .group .text {
+    flex: 3;
+    margin-top: 20px;
+   }
+
+   .contact-section .group .form {
+    flex: 3;
+    display: flex;
+    flex: column;
+   }
 
 
    @media (max-width: 850px) {
     /* SECTION 1: Hero */
     .hero-section .text h2 {
         font-size: 35px; /* fixed?*/
-        
     }
+    
     .hero-section .headshot img {
         width: 300px;
     }
@@ -211,7 +235,7 @@ html {
     
    }
 
-   /* SECTION 3 : More*/
+   /* SECTION 3 : More */
 
    .more-section {
     text-align: center;
@@ -220,7 +244,7 @@ html {
    .more-section .group {
     flex: column;
    }
-   
+
    @media (max-width: 600px) {
     /* NAVBAR */
     nav {
