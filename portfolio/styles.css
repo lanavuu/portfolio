@@ -150,10 +150,48 @@ html {
    }
 
    .skills-section .cells .cell span {
-    font-size: 15px;
+    font-size: 18px;
    }
 
-/* new new */
+   /* SECTION 3: more */
+   
+   .more-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+
+   }
+
+   .more-section h2 {
+    flex: 35px;
+    margin-bottom: 30px;
+   }
+
+   .more-section .group {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   }
+
+   .more-section .group .person-details {
+    text-align: center;
+    flex: 2;
+   }
+
+   .more-section .group .text {
+    flex: 8;
+   }
+
+   .more-section .group .person-details img {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+
+   }
+
+   .person-details .group .person-details p
+
+
    @media (max-width: 850px) {
     /* SECTION 1: Hero */
     .hero-section .text h2 {
@@ -172,6 +210,17 @@ html {
     }
     
    }
+
+   /* SECTION 3 : More*/
+
+   .more-section {
+    text-align: center;
+   }
+
+   .more-section .group {
+    flex: column;
+   }
+   
    @media (max-width: 600px) {
     /* NAVBAR */
     nav {
@@ -200,4 +249,14 @@ html {
     .hero-section .text h2 {
         font-size: 25px;
     }
+
+    /* SECTION 2: Skills */
+    .skills-section {
+        padding: 0 20px;
+    }
+
+    .skills-section .cells .cell span {
+        font-size: 15px;
+    }
+
    }
