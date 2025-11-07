@@ -209,10 +209,10 @@ html {
     margin-top: 20px;
    }
 
-   .contact-section .group .form {
+   .contact-section .group form {
     flex: 3;
     display: flex;
-    flex: column;
+    flex-direction: column;
    }
 
 
