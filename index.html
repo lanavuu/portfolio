@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lana Vu — Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <span class="nav-name">lana.vu</span>
+        <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-inner">
+            <p class="eyebrow">// hello, world</p>
+            <h1>Hi, I'm <span class="accent">Lana</span></h1>
+            <p class="hero-sub">CS student interested in backend, systems engineering, and embedded software. I write C++ and Python and care about how things work under the hood.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View my work</a>
+                <a href="#contact" class="btn btn-ghost">Get in touch</a>
+            </div>
+            <div class="hero-status">
+                <span class="dot"></span>
+                <span>Open to internships · CS @ CSUF · graduating ~May 2028</span>
+            </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+            <pre class="terminal-block"><span class="t-dim">$</span> <span class="t-cmd">./lana --info</span>
+
+<span class="t-key">name</span>       <span class="t-val">Lana Vu</span>
+<span class="t-key">focus</span>      <span class="t-val">systems · backend · embedded</span>
+<span class="t-key">lang</span>       <span class="t-val">C++  Python  x86 Assembly</span>
+<span class="t-key">status</span>     <span class="t-val">building things</span>
+
+<span class="t-dim">$</span> <span class="cursor">▋</span></pre>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="section-inner">
+            <div class="section-label">01 — about</div>
+            <div class="about-grid">
+                <div>
+                    <h2>A little about me</h2>
+                    <p>I got into CS because of video games. The joy they gave me is something I want to recreate for other people, and wanting to understand how games actually worked sent me down a rabbit hole that never really ended.</p>
+
+                    <p>Courses like Assembly and DSA helped me realize I’m especially interested in how software executes at a lower level and how systems are designed. That interest grew further in my Software Engineering course, where exposure to a professor who previously worked on medical devices made me curious about how software is built for real world software systems. That curiosity led me toward systems programming, embedded software, and backend work, areas of CS focused on how software actually runs.</p>
+
+                    <p>Outside of code, I lift weights, snowboard, and tend to pick up new interests quickly.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-num">3rd</span>
+                        <span class="stat-label">year at CSUF</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">C++</span>
+                        <span class="stat-label">primary language</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">3</span>
+                        <span class="stat-label">active projects</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">2028</span>
+                        <span class="stat-label">graduation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <div class="section-inner">
+            <div class="section-label">02 — projects</div>
+            <h2>Things I've built</h2>
+            <p class="section-sub">A few things I'm working on or have shipped. More on GitHub.</p>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-top">
+                        <span class="project-tag wip">WIP</span>
+                        <div class="project-links">
+                            <a href="https://github.com/lanavuu/Job-Simulator" target="_blank" rel="noopener" aria-label="GitHub">↗</a>
+                        </div>
+                    </div>
+                    <h3>Job Simulator</h3>
+                    <p>A C++ terminal game inspired by Roblox job simulator. Built to explore how game loops, state management, and user input systems work in a structured program. Players perform tasks like calculating transactions as a cashier, with a focus on building core gameplay logic from scratch in a command-line environment.</p>
+                    <div class="project-stack">
+                        <span>C++</span><span>Game Logic</span><span>CLI</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-top">
+                        <span class="project-tag">complete</span>
+                        <div class="project-links">
+                            <a href="https://github.com/lanavuu/SusChat" target="_blank" rel="noopener" aria-label="GitHub">↗</a>
+                        </div>
+                    </div>
+                    <h3>SusChat</h3>
+                    <p>A Python chat application built to practice structuring larger programs, managing user data, and implementing application features from scratch.</p>
+                    <div class="project-stack">
+                        <span>Python</span><span>JSON</span><span>CLI</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-top">
+                        <span class="project-tag">complete</span>
+                        <div class="project-links">
+                            <a href="https://github.com/Ztaco10/zombie-blast" target="_blank" rel="noopener" aria-label="GitHub">↗</a>
+                        </div>
+                    </div>
+                    <h3>Zombie Blast</h3>
+                    <p>A group project — a terminal-based zombie survival game. Collaborated with teammates to design the gameplay loop and core mechanics.</p>
+                    <div class="project-stack">
+                        <span>Python</span><span>terminal game</span><span>group</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <div class="section-inner">
+            <div class="section-label">03 — skills</div>
+            <h2>What I work with</h2>
+
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h4>Languages</h4>
+                    <div class="skill-list">
+                        <div class="skill-item strong">C++</div>
+                        <div class="skill-item strong">Python</div>
+                        <div class="skill-item">x86 Assembly</div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h4>Interests</h4>
+                    <div class="skill-list">
+                        <div class="skill-item">Backend systems</div>
+                        <div class="skill-item">Embedded software</div>
+                        <div class="skill-item">Systems programming</div>
+                        <div class="skill-item">Terminal / CLI programs</div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h4>Coursework</h4>
+                        <div class="skill-list">
+                            <div class="skill-item">Data Structures & Algorithms</div>
+                            <div class="skill-item">Discrete Mathematics I & II</div>
+                            <div class="skill-item">Computer Organization & x86 Assembly</div>
+                            <div class="skill-item">Object-Oriented Programming</div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience" id="experience">
+        <div class="section-inner">
+            <div class="section-label">04 — experience</div>
+            <h2>Background</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Aug 2025 — Dec 2025</div>
+                        <h3>Design Officer — ACM at CSUF</h3>
+                        <p>Helped facilitate beginner workshops on Figma, HTML, and CSS. Answered questions and troubleshot issues during live sessions, and collaborated with leadership to develop instructional material for frontend design workshops.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Aug 2025 — Dec 2025</div>
+                        <h3>Marketing Officer — ACM at CSUF</h3>
+                        <p>Created and edited promotional video content in Adobe After Effects for Instagram campaigns. Photographed club events and delivered media assets to the executive board on deadline to promote technical workshops and meetings.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 — present</div>
+                        <h3>CS Student — CSUF</h3>
+                        <p>Relevant coursework: Intro to Programming, Object-Oriented Programming, Data Structures & Algorithms, Discrete Mathematics I & II, Computer Organization & x86 Assembly, Python Programming, Software Engineering.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">self-directed</div>
+                        <h3>Personal Projects</h3>
+                        <p>Building terminal games and small programs in C++ and Python outside of class, mainly as a way to apply what I'm learning and explore areas like game loops, state machines, and real-time input handling.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="section-inner contact-inner">
+            <div class="section-label">05 — contact</div>
+            <h2>Let's talk</h2>
+            <p class="contact-sub">I'm currently looking for internship opportunities. Whether you have a question or just want to say hi, my inbox is open.</p>
+            <div class="contact-links">
+                <a href="mailto:lananghivu@gmail.com" class="contact-link">
+                    <span class="contact-icon">✉</span>
+                    <span>Email</span>
+                </a>
+                <a href="https://github.com/lanavuu" target="_blank" rel="noopener" class="contact-link">
+                    <span class="contact-icon">gh</span>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/lananghivu/" target="_blank" rel="noopener" class="contact-link">
+                    <span class="contact-icon">in</span>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
